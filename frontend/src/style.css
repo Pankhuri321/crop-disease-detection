@@ -1,0 +1,144 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #eef2ff;
+  color: #1e293b;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #1e3a8a;
+  color: white;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links button.active {
+  border-bottom: 2px solid #60a5fa;
+}
+
+/* ===== HOME ===== */
+.home {
+  text-align: center;
+  padding: 80px;
+}
+
+.primary-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* ===== CARDS ===== */
+.upload-card,
+.result-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+/* ===== IMAGE ===== */
+.preview-img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* ===== RESULT IMAGE ===== */
+.result-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  margin: 15px 0;
+  border-radius: 12px;
+}
+
+/* ===== BUTTON ===== */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+/* ===== BADGE ===== */
+.badge {
+  background: #16a34a;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* ===== PROGRESS ===== */
+.progress-bar {
+  margin-top: 10px;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 10px;
+}
+
+.progress {
+  height: 100%;
+  background: #2563eb;
+}
+
+/* ===== RESULT MODE ===== */
+.result-mode .upload-card {
+  display: none;
+}
+
+.result-mode .result-card {
+  width: 600px;
+  margin: auto;
+}
+
+/* ===== RESET BUTTON ===== */
+.reset-btn {
+  background: #dc2626;
+}
+
+/* ===== ABOUT ===== */
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+.about-card {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
